@@ -1,11 +1,12 @@
 Summary:	Miscellaneous O/S utilities
-Summary(pl):	Miscellaneous O/S utilities
+Summary(pl):	Ró¿ne narzêdzia zwi±zane z O/S
 Name:		xemacs-os-utils-pkg
 %define 	srcname	os-utils
 Version:	1.25
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -16,8 +17,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Miscellaneous O/S utilities.
 
 %description -l pl 
+Ró¿ne narzêdzia zwi±zane z OS.
 
 %prep
 %setup -q -c
