@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Miscellaneous O/S utilities.
 
-%description -l pl 
+%description -l pl
 Ró¿ne narzêdzia zwi±zane z OS.
 
 %prep
@@ -29,13 +29,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/os-utils/ChangeLog 
+gzip -9nf lisp/os-utils/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/os-utils/ChangeLog.gz 
+%doc lisp/os-utils/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
