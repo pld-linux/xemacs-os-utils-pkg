@@ -2,7 +2,7 @@ Summary:	Miscellaneous O/S utilities
 Summary(pl):	Miscellaneous O/S utilities
 Name:		xemacs-os-utils-pkg
 %define 	srcname	os-utils
-Version:	1.19
+Version:	1.24
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
