@@ -2,7 +2,7 @@ Summary:	Miscellaneous O/S utilities
 Summary(pl):	Ró¿ne narzêdzia zwi±zane z O/S
 Name:		xemacs-os-utils-pkg
 %define 	srcname	os-utils
-Version:	1.28
+Version:	1.29
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
