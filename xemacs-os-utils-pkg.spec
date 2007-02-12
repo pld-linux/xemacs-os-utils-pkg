@@ -1,5 +1,5 @@
 Summary:	Miscellaneous O/S utilities
-Summary(pl.UTF-8):   Różne narzędzia związane z O/S
+Summary(pl.UTF-8):	Różne narzędzia związane z O/S
 Name:		xemacs-os-utils-pkg
 %define 	srcname	os-utils
 Version:	1.34
