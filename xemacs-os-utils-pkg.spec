@@ -1,5 +1,5 @@
 Summary:	Miscellaneous O/S utilities
-Summary(pl):	Ró¿ne narzêdzia zwi±zane z O/S
+Summary(pl.UTF-8):   RÃ³Å¼ne narzÄ™dzia zwiÄ…zane z O/S
 Name:		xemacs-os-utils-pkg
 %define 	srcname	os-utils
 Version:	1.34
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Miscellaneous O/S utilities.
 
-%description -l pl
-Ró¿ne narzêdzia zwi±zane z OS.
+%description -l pl.UTF-8
+RÃ³Å¼ne narzÄ™dzia zwiÄ…zane z OS.
 
 %prep
 %setup -q -c
