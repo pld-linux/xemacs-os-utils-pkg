@@ -6,7 +6,7 @@ Version:	1.34
 Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	98fa67e0d1b89febd16bfc952d552171
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
