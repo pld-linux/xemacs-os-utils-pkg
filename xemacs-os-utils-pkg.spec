@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Różne narzędzia związane z O/S
 Name:		xemacs-os-utils-pkg
 %define 	srcname	os-utils
 Version:	1.34
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
