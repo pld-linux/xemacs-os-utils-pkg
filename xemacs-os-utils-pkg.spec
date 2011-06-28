@@ -2,12 +2,12 @@ Summary:	Miscellaneous O/S utilities
 Summary(pl.UTF-8):	Różne narzędzia związane z O/S
 Name:		xemacs-os-utils-pkg
 %define 	srcname	os-utils
-Version:	1.34
-Release:	3
+Version:	1.41
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	98fa67e0d1b89febd16bfc952d552171
+# Source0-md5:	7428d643d1b006e4fff0acb8267138b2
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
